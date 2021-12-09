@@ -1,0 +1,91 @@
+html {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS672WkSN6czNdfPbTUKGFHy18ZzKVXyHf65g&usqp=CAU);
+}
+header {
+  text-align: center;
+  font-family: monospace;
+  color: orange;
+}
+
+h1 {
+  font-size: 40px;
+}
+p {
+  text-align: center;
+  font-family: sans;
+  font-size: 1.5vw;
+}
+.large_image {
+  width: 40%;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+#img-caption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 1.2vw;
+}
+
+#title {
+  background-color: white;
+  height: 100px;
+}
+
+#img-div {
+  background-color: #f6c453;
+  position: absolute;
+}
+#tribute-info {
+  position: relative;
+  top: 75vw;
+  text-align: centre;
+  left: 3vw;
+  background-color: white;
+  width: 92.3vw;
+  font-size: 1.5vw;
+  @media (max-width: 800px) {
+    #tribute-info {
+      font-size: 10px;
+    }
+  }
+}
+#tribute {
+  position: relative;
+  text-align: centre;
+  background-color: white;
+
+  top: 2vw;
+  font-size: 1.5vw;
+}
+#praise {
+  position: relative;
+  top: 80vw;
+  left: 4vw;
+  font-size: 1.5vw;
+}
+
+#foot {
+  width: 60vw;
+  font-size: 1.2vw;
+  left: 2vw;
+  position: relative;
+  top: 85vw;
+}
+cite {
+  font-size: 1.2vw;
+  position: relative;
+  left: 13vw;
+}
